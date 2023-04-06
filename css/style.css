@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 15%;
+    margin: 10% auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px;
+}
+
+.text {
+    text-align: left;
+}
+
+.text h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.author {
+    margin: 10px auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: hsl(215, 32%, 27%);
+    font-weight: 400;
+}
+
+.author img {
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author span {
+    color: white;
+}
+
+.author:hover span {
+    color: hsl(178, 100%, 50%);
+}
+
+.equilibrium {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 22.6%;
+    left: 43.6%;
+    width: 246px;
+    height: 247px;
+    background-color: rgba(0, 191, 255, 0.5); /* Cor azul claro com opacidade */
+    opacity: 0; /* Inicialmente transparente */
+    transition: opacity 0.3s ease; /* Transição suave para efeito hover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft-image:hover .overlay {
+    opacity: 1; /* Opacidade máxima no hover */
+  }
+
+.text:hover h2{
+    color: hsl(178, 100%, 50%);
+}
+
+.line {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: 20px auto;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-price {
+    display: flex;
+}
+
+.nft-price img {
+    margin-right: 10px;
+}
+
+.days-left {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: center;
+}
+
+.days-left img {
+    object-fit: cover;
+    margin-right: 6px;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
