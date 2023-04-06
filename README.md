@@ -27,7 +27,7 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-[Hovering](./hover.png)
+![Hovering](./hover.png)
 
 ### Links
 
