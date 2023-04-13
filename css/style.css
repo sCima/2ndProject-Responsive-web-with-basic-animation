@@ -7,12 +7,15 @@
 
 body {
     background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container {
     background-color: hsl(216, 50%, 16%);
-    width: 15%;
-    margin: 10% auto;
+    max-width: 400px;
     text-align: center;
     box-sizing: border-box;
     padding: 20px;
@@ -51,6 +54,7 @@ body {
 
 .author:hover span {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .equilibrium {
@@ -61,27 +65,9 @@ body {
     font-weight: 300;
 }
 
-.overlay {
-    position: absolute;
-    border-radius: 10px;
-    top: 22.6%;
-    left: 43.6%;
-    width: 246px;
-    height: 247px;
-    background-color: rgba(0, 191, 255, 0.5); /* Cor azul claro com opacidade */
-    opacity: 0; /* Inicialmente transparente */
-    transition: opacity 0.3s ease; /* Transição suave para efeito hover */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nft-image:hover .overlay {
-    opacity: 1; /* Opacidade máxima no hover */
-  }
-
-.text:hover h2{
+.sub-title:hover{
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .line {
