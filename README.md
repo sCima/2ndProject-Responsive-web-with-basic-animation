@@ -27,8 +27,6 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-![Hovering](./hover.png)
-
 ### Links
 
 - Live Site URL: [https://scima.github.io/2ndProject-Responsive-web-with-basic-animation/](https://scima.github.io/2ndProject-Responsive-web-with-basic-animation/)
